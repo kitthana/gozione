@@ -1,0 +1,342 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.saleafterservice.gozione"
+4    android:versionCode="3"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/SherlockOhm/Downloads/Gozione/test_app/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/SherlockOhm/Downloads/Gozione/test_app/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->[:vibration] /Users/SherlockOhm/Downloads/Gozione/test_app/build/vibration/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-66
+15-->[:vibration] /Users/SherlockOhm/Downloads/Gozione/test_app/build/vibration/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-63
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->[:location] /Users/SherlockOhm/Downloads/Gozione/test_app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+16-->[:location] /Users/SherlockOhm/Downloads/Gozione/test_app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-78
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->[:location] /Users/SherlockOhm/Downloads/Gozione/test_app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-79
+17-->[:location] /Users/SherlockOhm/Downloads/Gozione/test_app/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-76
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->[:image_picker] /Users/SherlockOhm/Downloads/Gozione/test_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+18-->[:image_picker] /Users/SherlockOhm/Downloads/Gozione/test_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->[:image_picker] /Users/SherlockOhm/Downloads/Gozione/test_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+19-->[:image_picker] /Users/SherlockOhm/Downloads/Gozione/test_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+20    <uses-permission android:name="android.permission.CAMERA" /> <!-- Include required permissions for Google Maps API to run. -->
+20-->[:barcode_scan] /Users/SherlockOhm/Downloads/Gozione/test_app/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-65
+20-->[:barcode_scan] /Users/SherlockOhm/Downloads/Gozione/test_app/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-62
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->[com.google.android.gms:play-services-maps:17.0.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/e74dca4e4c2fd19bae3b53d27f43a97e/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+21-->[com.google.android.gms:play-services-maps:17.0.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/e74dca4e4c2fd19bae3b53d27f43a97e/play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+22
+23    <uses-feature
+23-->[com.google.android.gms:play-services-maps:17.0.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/e74dca4e4c2fd19bae3b53d27f43a97e/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+24        android:glEsVersion="0x00020000"
+24-->[com.google.android.gms:play-services-maps:17.0.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/e74dca4e4c2fd19bae3b53d27f43a97e/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+25        android:required="true" />
+25-->[com.google.android.gms:play-services-maps:17.0.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/e74dca4e4c2fd19bae3b53d27f43a97e/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+26
+27    <uses-permission android:name="android.permission.WAKE_LOCK" />
+27-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:25:5-68
+27-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:25:22-65
+28    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+28-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:26:5-110
+28-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:26:22-107
+29    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+29-->[com.google.firebase:firebase-iid:19.0.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/d2db7998fe11f0473870f9ce401558c5/firebase-iid-19.0.0/AndroidManifest.xml:26:5-82
+29-->[com.google.firebase:firebase-iid:19.0.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/d2db7998fe11f0473870f9ce401558c5/firebase-iid-19.0.0/AndroidManifest.xml:26:22-79
+30    <!--
+31 io.flutter.app.FlutterApplication is an android.app.Application that
+32         calls FlutterMain.startInitialization(this); in its onCreate method.
+33         In most cases you can leave this as-is, but you if you want to provide
+34         additional functionality it is fine to subclass or reimplement
+35         FlutterApplication and put your custom class here.
+36    -->
+37    <application
+37-->/Users/SherlockOhm/Downloads/Gozione/test_app/android/app/src/main/AndroidManifest.xml:8:5-31:19
+38        android:name="io.flutter.app.FlutterApplication"
+38-->/Users/SherlockOhm/Downloads/Gozione/test_app/android/app/src/main/AndroidManifest.xml:9:9-57
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.0.2] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/f88aa5f8f2c375cd87c7092eb7d6c8a4/core-1.0.2/AndroidManifest.xml:22:18-86
+40        android:debuggable="true"
+41        android:icon="@mipmap/ic_launcher"
+41-->/Users/SherlockOhm/Downloads/Gozione/test_app/android/app/src/main/AndroidManifest.xml:11:9-43
+42        android:label="Gozione" >
+42-->/Users/SherlockOhm/Downloads/Gozione/test_app/android/app/src/main/AndroidManifest.xml:10:9-32
+43        <activity
+43-->/Users/SherlockOhm/Downloads/Gozione/test_app/android/app/src/main/AndroidManifest.xml:12:9-23:20
+44            android:name="com.saleafterservice.gozione.MainActivity"
+44-->/Users/SherlockOhm/Downloads/Gozione/test_app/android/app/src/main/AndroidManifest.xml:13:13-41
+45            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+45-->/Users/SherlockOhm/Downloads/Gozione/test_app/android/app/src/main/AndroidManifest.xml:16:13-163
+46            android:hardwareAccelerated="true"
+46-->/Users/SherlockOhm/Downloads/Gozione/test_app/android/app/src/main/AndroidManifest.xml:17:13-47
+47            android:launchMode="singleTop"
+47-->/Users/SherlockOhm/Downloads/Gozione/test_app/android/app/src/main/AndroidManifest.xml:14:13-43
+48            android:theme="@style/LaunchTheme"
+48-->/Users/SherlockOhm/Downloads/Gozione/test_app/android/app/src/main/AndroidManifest.xml:15:13-47
+49            android:windowSoftInputMode="adjustResize" >
+49-->/Users/SherlockOhm/Downloads/Gozione/test_app/android/app/src/main/AndroidManifest.xml:18:13-55
+50            <intent-filter>
+50-->/Users/SherlockOhm/Downloads/Gozione/test_app/android/app/src/main/AndroidManifest.xml:19:13-22:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->/Users/SherlockOhm/Downloads/Gozione/test_app/android/app/src/main/AndroidManifest.xml:20:17-68
+51-->/Users/SherlockOhm/Downloads/Gozione/test_app/android/app/src/main/AndroidManifest.xml:20:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->/Users/SherlockOhm/Downloads/Gozione/test_app/android/app/src/main/AndroidManifest.xml:21:17-76
+53-->/Users/SherlockOhm/Downloads/Gozione/test_app/android/app/src/main/AndroidManifest.xml:21:27-74
+54            </intent-filter>
+55        </activity>
+56        <!--
+57             Don't delete the meta-data below.
+58             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+59        -->
+60        <meta-data
+60-->/Users/SherlockOhm/Downloads/Gozione/test_app/android/app/src/main/AndroidManifest.xml:26:9-28:33
+61            android:name="flutterEmbedding"
+61-->/Users/SherlockOhm/Downloads/Gozione/test_app/android/app/src/main/AndroidManifest.xml:27:13-44
+62            android:value="2" />
+62-->/Users/SherlockOhm/Downloads/Gozione/test_app/android/app/src/main/AndroidManifest.xml:28:13-30
+63        <meta-data
+63-->/Users/SherlockOhm/Downloads/Gozione/test_app/android/app/src/main/AndroidManifest.xml:29:9-30:70
+64            android:name="com.google.android.geo.API_KEY"
+64-->/Users/SherlockOhm/Downloads/Gozione/test_app/android/app/src/main/AndroidManifest.xml:29:20-65
+65            android:value="AIzaSyAr8gO7Twyc14TxdAQLuN-IhuTVG67Iap0" />
+65-->/Users/SherlockOhm/Downloads/Gozione/test_app/android/app/src/main/AndroidManifest.xml:30:13-68
+66
+67        <provider
+67-->[:image_picker] /Users/SherlockOhm/Downloads/Gozione/test_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+68            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+68-->[:image_picker] /Users/SherlockOhm/Downloads/Gozione/test_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+69            android:authorities="com.saleafterservice.gozione.flutter.image_provider"
+69-->[:image_picker] /Users/SherlockOhm/Downloads/Gozione/test_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+70            android:exported="false"
+70-->[:image_picker] /Users/SherlockOhm/Downloads/Gozione/test_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+71            android:grantUriPermissions="true" >
+71-->[:image_picker] /Users/SherlockOhm/Downloads/Gozione/test_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+72            <meta-data
+72-->[:image_picker] /Users/SherlockOhm/Downloads/Gozione/test_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+73                android:name="android.support.FILE_PROVIDER_PATHS"
+73-->[:image_picker] /Users/SherlockOhm/Downloads/Gozione/test_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+74                android:resource="@xml/flutter_image_picker_file_paths" />
+74-->[:image_picker] /Users/SherlockOhm/Downloads/Gozione/test_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+75        </provider>
+76
+77        <service
+77-->[:firebase_auth] /Users/SherlockOhm/Downloads/Gozione/test_app/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+78            android:name="com.google.firebase.components.ComponentDiscoveryService"
+78-->[:firebase_auth] /Users/SherlockOhm/Downloads/Gozione/test_app/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+79            android:directBootAware="true"
+79-->[com.google.firebase:firebase-common:19.3.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/a91f8c4e68c2877fb88f53ef6f6f350e/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+80            android:exported="false" >
+80-->[com.google.firebase:firebase-auth:19.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/ae936e42205d23ddab410b388bea9015/firebase-auth-19.2.0/AndroidManifest.xml:35:13-37
+81            <meta-data
+81-->[:firebase_auth] /Users/SherlockOhm/Downloads/Gozione/test_app/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+82                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+82-->[:firebase_auth] /Users/SherlockOhm/Downloads/Gozione/test_app/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-122
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[:firebase_auth] /Users/SherlockOhm/Downloads/Gozione/test_app/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+84            <meta-data
+84-->[:firebase_database] /Users/SherlockOhm/Downloads/Gozione/test_app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+85                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+85-->[:firebase_database] /Users/SherlockOhm/Downloads/Gozione/test_app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-127
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[:firebase_database] /Users/SherlockOhm/Downloads/Gozione/test_app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+87            <meta-data
+87-->[:firebase_storage] /Users/SherlockOhm/Downloads/Gozione/test_app/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+88                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+88-->[:firebase_storage] /Users/SherlockOhm/Downloads/Gozione/test_app/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[:firebase_storage] /Users/SherlockOhm/Downloads/Gozione/test_app/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+90            <meta-data
+90-->[:firebase_core] /Users/SherlockOhm/Downloads/Gozione/test_app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+91                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+91-->[:firebase_core] /Users/SherlockOhm/Downloads/Gozione/test_app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[:firebase_core] /Users/SherlockOhm/Downloads/Gozione/test_app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+93            <meta-data
+93-->[com.google.firebase:firebase-auth:19.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/ae936e42205d23ddab410b388bea9015/firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+94                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+94-->[com.google.firebase:firebase-auth:19.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/ae936e42205d23ddab410b388bea9015/firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[com.google.firebase:firebase-auth:19.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/ae936e42205d23ddab410b388bea9015/firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+96            <meta-data
+96-->[com.google.android.gms:play-services-measurement-api:17.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/192166dd83cbbfd73ea18c910cc55de2/play-services-measurement-api-17.2.0/AndroidManifest.xml:30:13-32:85
+97                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+97-->[com.google.android.gms:play-services-measurement-api:17.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/192166dd83cbbfd73ea18c910cc55de2/play-services-measurement-api-17.2.0/AndroidManifest.xml:31:17-139
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.android.gms:play-services-measurement-api:17.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/192166dd83cbbfd73ea18c910cc55de2/play-services-measurement-api-17.2.0/AndroidManifest.xml:32:17-82
+99            <meta-data
+99-->[com.google.firebase:firebase-database:17.0.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/303de2dbe864b0aa9af2dfb66b49474a/jetified-firebase-database-17.0.0/AndroidManifest.xml:30:13-32:85
+100                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+100-->[com.google.firebase:firebase-database:17.0.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/303de2dbe864b0aa9af2dfb66b49474a/jetified-firebase-database-17.0.0/AndroidManifest.xml:31:17-109
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-database:17.0.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/303de2dbe864b0aa9af2dfb66b49474a/jetified-firebase-database-17.0.0/AndroidManifest.xml:32:17-82
+102            <meta-data
+102-->[com.google.firebase:firebase-storage:17.0.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/b345d55328d0344ce538226a2c35831a/jetified-firebase-storage-17.0.0/AndroidManifest.xml:31:13-33:85
+103                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+103-->[com.google.firebase:firebase-storage:17.0.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/b345d55328d0344ce538226a2c35831a/jetified-firebase-storage-17.0.0/AndroidManifest.xml:32:17-107
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.firebase:firebase-storage:17.0.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/b345d55328d0344ce538226a2c35831a/jetified-firebase-storage-17.0.0/AndroidManifest.xml:33:17-82
+105            <meta-data
+105-->[com.google.firebase:firebase-iid:19.0.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/d2db7998fe11f0473870f9ce401558c5/firebase-iid-19.0.0/AndroidManifest.xml:32:13-34:85
+106                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+106-->[com.google.firebase:firebase-iid:19.0.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/d2db7998fe11f0473870f9ce401558c5/firebase-iid-19.0.0/AndroidManifest.xml:33:17-96
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.firebase:firebase-iid:19.0.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/d2db7998fe11f0473870f9ce401558c5/firebase-iid-19.0.0/AndroidManifest.xml:34:17-82
+108        </service>
+109
+110        <activity android:name="com.apptreesoftware.barcodescan.BarcodeScannerActivity" />
+110-->[:barcode_scan] /Users/SherlockOhm/Downloads/Gozione/test_app/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-91
+110-->[:barcode_scan] /Users/SherlockOhm/Downloads/Gozione/test_app/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:14:19-88
+111        <activity
+111-->[:url_launcher] /Users/SherlockOhm/Downloads/Gozione/test_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+112            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+112-->[:url_launcher] /Users/SherlockOhm/Downloads/Gozione/test_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+113            android:exported="false"
+113-->[:url_launcher] /Users/SherlockOhm/Downloads/Gozione/test_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+114            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+114-->[:url_launcher] /Users/SherlockOhm/Downloads/Gozione/test_app/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+115        <activity
+115-->[com.google.firebase:firebase-auth:19.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/ae936e42205d23ddab410b388bea9015/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+116            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+116-->[com.google.firebase:firebase-auth:19.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/ae936e42205d23ddab410b388bea9015/firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+117            android:excludeFromRecents="true"
+117-->[com.google.firebase:firebase-auth:19.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/ae936e42205d23ddab410b388bea9015/firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+118            android:exported="true"
+118-->[com.google.firebase:firebase-auth:19.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/ae936e42205d23ddab410b388bea9015/firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+119            android:launchMode="singleTask"
+119-->[com.google.firebase:firebase-auth:19.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/ae936e42205d23ddab410b388bea9015/firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+120            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+120-->[com.google.firebase:firebase-auth:19.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/ae936e42205d23ddab410b388bea9015/firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+121            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Needs to be explicitly declared on P+ -->
+121-->[com.google.firebase:firebase-auth:19.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/ae936e42205d23ddab410b388bea9015/firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+122        <uses-library
+122-->[com.google.android.gms:play-services-maps:17.0.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/e74dca4e4c2fd19bae3b53d27f43a97e/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+123            android:name="org.apache.http.legacy"
+123-->[com.google.android.gms:play-services-maps:17.0.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/e74dca4e4c2fd19bae3b53d27f43a97e/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+124            android:required="false" />
+124-->[com.google.android.gms:play-services-maps:17.0.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/e74dca4e4c2fd19bae3b53d27f43a97e/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+125
+126        <receiver
+126-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:29:9-33:20
+127            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+127-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:30:13-85
+128            android:enabled="true"
+128-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:31:13-35
+129            android:exported="false" >
+129-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:32:13-37
+130        </receiver>
+131        <receiver
+131-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:34:9-42:20
+132            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+132-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:35:13-100
+133            android:enabled="true"
+133-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:36:13-35
+134            android:exported="true"
+134-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:37:13-36
+135            android:permission="android.permission.INSTALL_PACKAGES" >
+135-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:38:13-69
+136            <intent-filter>
+136-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:39:13-41:29
+137                <action android:name="com.android.vending.INSTALL_REFERRER" />
+137-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:40:17-79
+137-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:40:25-76
+138            </intent-filter>
+139        </receiver>
+140
+141        <service
+141-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:44:9-47:40
+142            android:name="com.google.android.gms.measurement.AppMeasurementService"
+142-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:45:13-84
+143            android:enabled="true"
+143-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:46:13-35
+144            android:exported="false" />
+144-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:47:13-37
+145        <service
+145-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:48:9-52:72
+146            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+146-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:49:13-87
+147            android:enabled="true"
+147-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:50:13-35
+148            android:exported="false"
+148-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:51:13-37
+149            android:permission="android.permission.BIND_JOB_SERVICE" />
+149-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:52:13-69
+150
+151        <activity
+151-->[com.google.android.gms:play-services-auth:16.0.1] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/79a7533aae654fdc461e414d49223c00/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+152            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+152-->[com.google.android.gms:play-services-auth:16.0.1] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/79a7533aae654fdc461e414d49223c00/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+153            android:excludeFromRecents="true"
+153-->[com.google.android.gms:play-services-auth:16.0.1] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/79a7533aae654fdc461e414d49223c00/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+154            android:exported="false"
+154-->[com.google.android.gms:play-services-auth:16.0.1] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/79a7533aae654fdc461e414d49223c00/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+155            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+155-->[com.google.android.gms:play-services-auth:16.0.1] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/79a7533aae654fdc461e414d49223c00/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+156        <!--
+157            Service handling Google Sign-In user revocation. For apps that do not integrate with
+158            Google Sign-In, this service will never be started.
+159        -->
+160        <service
+160-->[com.google.android.gms:play-services-auth:16.0.1] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/79a7533aae654fdc461e414d49223c00/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+161            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+161-->[com.google.android.gms:play-services-auth:16.0.1] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/79a7533aae654fdc461e414d49223c00/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+162            android:exported="true"
+162-->[com.google.android.gms:play-services-auth:16.0.1] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/79a7533aae654fdc461e414d49223c00/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+163            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+163-->[com.google.android.gms:play-services-auth:16.0.1] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/79a7533aae654fdc461e414d49223c00/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+164
+165        <receiver
+165-->[com.google.firebase:firebase-iid:19.0.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/d2db7998fe11f0473870f9ce401558c5/firebase-iid-19.0.0/AndroidManifest.xml:37:9-44:20
+166            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+166-->[com.google.firebase:firebase-iid:19.0.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/d2db7998fe11f0473870f9ce401558c5/firebase-iid-19.0.0/AndroidManifest.xml:38:13-78
+167            android:exported="true"
+167-->[com.google.firebase:firebase-iid:19.0.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/d2db7998fe11f0473870f9ce401558c5/firebase-iid-19.0.0/AndroidManifest.xml:39:13-36
+168            android:permission="com.google.android.c2dm.permission.SEND" >
+168-->[com.google.firebase:firebase-iid:19.0.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/d2db7998fe11f0473870f9ce401558c5/firebase-iid-19.0.0/AndroidManifest.xml:40:13-73
+169            <intent-filter>
+169-->[com.google.firebase:firebase-iid:19.0.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/d2db7998fe11f0473870f9ce401558c5/firebase-iid-19.0.0/AndroidManifest.xml:41:13-43:29
+170                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+170-->[com.google.firebase:firebase-iid:19.0.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/d2db7998fe11f0473870f9ce401558c5/firebase-iid-19.0.0/AndroidManifest.xml:42:17-81
+170-->[com.google.firebase:firebase-iid:19.0.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/d2db7998fe11f0473870f9ce401558c5/firebase-iid-19.0.0/AndroidManifest.xml:42:25-78
+171            </intent-filter>
+172        </receiver>
+173
+174        <provider
+174-->[com.google.firebase:firebase-common:19.3.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/a91f8c4e68c2877fb88f53ef6f6f350e/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+175            android:name="com.google.firebase.provider.FirebaseInitProvider"
+175-->[com.google.firebase:firebase-common:19.3.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/a91f8c4e68c2877fb88f53ef6f6f350e/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+176            android:authorities="com.saleafterservice.gozione.firebaseinitprovider"
+176-->[com.google.firebase:firebase-common:19.3.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/a91f8c4e68c2877fb88f53ef6f6f350e/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+177            android:exported="false"
+177-->[com.google.firebase:firebase-common:19.3.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/a91f8c4e68c2877fb88f53ef6f6f350e/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+178            android:initOrder="100" />
+178-->[com.google.firebase:firebase-common:19.3.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/a91f8c4e68c2877fb88f53ef6f6f350e/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+179
+180        <activity
+180-->[com.google.android.gms:play-services-base:17.1.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/8ac2c71cc9965485e4fc4eaca5d4253a/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+181            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+181-->[com.google.android.gms:play-services-base:17.1.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/8ac2c71cc9965485e4fc4eaca5d4253a/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+182            android:exported="false"
+182-->[com.google.android.gms:play-services-base:17.1.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/8ac2c71cc9965485e4fc4eaca5d4253a/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+183            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+183-->[com.google.android.gms:play-services-base:17.1.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/8ac2c71cc9965485e4fc4eaca5d4253a/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+184
+185        <meta-data
+185-->[com.google.android.gms:play-services-basement:17.0.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/72f43406b280cc3b65992d7769c32ac1/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+186            android:name="com.google.android.gms.version"
+186-->[com.google.android.gms:play-services-basement:17.0.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/72f43406b280cc3b65992d7769c32ac1/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+187            android:value="@integer/google_play_services_version" />
+187-->[com.google.android.gms:play-services-basement:17.0.0] /Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/72f43406b280cc3b65992d7769c32ac1/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+188    </application>
+189
+190</manifest>

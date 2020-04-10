@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/SherlockOhm/Downloads/Gozione/test_app/build/share/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/df6cf23cc51da578d8b158de17d0c9cb/core-1.0.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/SherlockOhm/Downloads/Gozione/test_app/build/share/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/df6cf23cc51da578d8b158de17d0c9cb/core-1.0.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/SherlockOhm/Downloads/Gozione/test_app/build/share/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/df6cf23cc51da578d8b158de17d0c9cb/core-1.0.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/SherlockOhm/Downloads/Gozione/test_app/build/share/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/df6cf23cc51da578d8b158de17d0c9cb/core-1.0.0/res/drawable/notification_tile_bg.xml"
+    }
+]

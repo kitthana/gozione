@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "/Users/SherlockOhm/Downloads/Gozione/test_app/build/barcode_scan/intermediates/res/merged/release/anim/abc_tooltip_exit.xml",
+        "source": "/Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/06d29cf1c4a0ed70f972b88543abcd6c/appcompat-1.0.2/res/anim/abc_tooltip_exit.xml"
+    },
+    {
+        "merged": "/Users/SherlockOhm/Downloads/Gozione/test_app/build/barcode_scan/intermediates/res/merged/release/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/06d29cf1c4a0ed70f972b88543abcd6c/appcompat-1.0.2/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/SherlockOhm/Downloads/Gozione/test_app/build/barcode_scan/intermediates/res/merged/release/anim/abc_slide_out_top.xml",
+        "source": "/Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/06d29cf1c4a0ed70f972b88543abcd6c/appcompat-1.0.2/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/SherlockOhm/Downloads/Gozione/test_app/build/barcode_scan/intermediates/res/merged/release/anim/abc_tooltip_enter.xml",
+        "source": "/Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/06d29cf1c4a0ed70f972b88543abcd6c/appcompat-1.0.2/res/anim/abc_tooltip_enter.xml"
+    },
+    {
+        "merged": "/Users/SherlockOhm/Downloads/Gozione/test_app/build/barcode_scan/intermediates/res/merged/release/anim/abc_popup_exit.xml",
+        "source": "/Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/06d29cf1c4a0ed70f972b88543abcd6c/appcompat-1.0.2/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/SherlockOhm/Downloads/Gozione/test_app/build/barcode_scan/intermediates/res/merged/release/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/cec32cd82a8a766b147872418afb7fcd/material-1.0.0/res/anim/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/SherlockOhm/Downloads/Gozione/test_app/build/barcode_scan/intermediates/res/merged/release/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/cec32cd82a8a766b147872418afb7fcd/material-1.0.0/res/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/SherlockOhm/Downloads/Gozione/test_app/build/barcode_scan/intermediates/res/merged/release/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/06d29cf1c4a0ed70f972b88543abcd6c/appcompat-1.0.2/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/SherlockOhm/Downloads/Gozione/test_app/build/barcode_scan/intermediates/res/merged/release/anim/abc_fade_in.xml",
+        "source": "/Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/06d29cf1c4a0ed70f972b88543abcd6c/appcompat-1.0.2/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/SherlockOhm/Downloads/Gozione/test_app/build/barcode_scan/intermediates/res/merged/release/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/06d29cf1c4a0ed70f972b88543abcd6c/appcompat-1.0.2/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/SherlockOhm/Downloads/Gozione/test_app/build/barcode_scan/intermediates/res/merged/release/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/06d29cf1c4a0ed70f972b88543abcd6c/appcompat-1.0.2/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/SherlockOhm/Downloads/Gozione/test_app/build/barcode_scan/intermediates/res/merged/release/anim/design_snackbar_out.xml",
+        "source": "/Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/cec32cd82a8a766b147872418afb7fcd/material-1.0.0/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/SherlockOhm/Downloads/Gozione/test_app/build/barcode_scan/intermediates/res/merged/release/anim/design_snackbar_in.xml",
+        "source": "/Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/cec32cd82a8a766b147872418afb7fcd/material-1.0.0/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/SherlockOhm/Downloads/Gozione/test_app/build/barcode_scan/intermediates/res/merged/release/anim/abc_popup_enter.xml",
+        "source": "/Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/06d29cf1c4a0ed70f972b88543abcd6c/appcompat-1.0.2/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/SherlockOhm/Downloads/Gozione/test_app/build/barcode_scan/intermediates/res/merged/release/anim/abc_fade_out.xml",
+        "source": "/Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/06d29cf1c4a0ed70f972b88543abcd6c/appcompat-1.0.2/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/SherlockOhm/Downloads/Gozione/test_app/build/barcode_scan/intermediates/res/merged/release/anim/abc_slide_in_top.xml",
+        "source": "/Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/06d29cf1c4a0ed70f972b88543abcd6c/appcompat-1.0.2/res/anim/abc_slide_in_top.xml"
+    }
+]

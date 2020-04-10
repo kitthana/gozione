@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/SherlockOhm/Downloads/Gozione/test_app/build/barcode_scan/intermediates/res/merged/release/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/cec32cd82a8a766b147872418afb7fcd/material-1.0.0/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/SherlockOhm/Downloads/Gozione/test_app/build/barcode_scan/intermediates/res/merged/release/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/cec32cd82a8a766b147872418afb7fcd/material-1.0.0/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    }
+]

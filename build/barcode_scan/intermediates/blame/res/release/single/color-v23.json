@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/SherlockOhm/Downloads/Gozione/test_app/build/barcode_scan/intermediates/res/merged/release/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/06d29cf1c4a0ed70f972b88543abcd6c/appcompat-1.0.2/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/SherlockOhm/Downloads/Gozione/test_app/build/barcode_scan/intermediates/res/merged/release/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/06d29cf1c4a0ed70f972b88543abcd6c/appcompat-1.0.2/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/SherlockOhm/Downloads/Gozione/test_app/build/barcode_scan/intermediates/res/merged/release/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/06d29cf1c4a0ed70f972b88543abcd6c/appcompat-1.0.2/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/SherlockOhm/Downloads/Gozione/test_app/build/barcode_scan/intermediates/res/merged/release/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/06d29cf1c4a0ed70f972b88543abcd6c/appcompat-1.0.2/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/SherlockOhm/Downloads/Gozione/test_app/build/barcode_scan/intermediates/res/merged/release/color-v23/design_tint_password_toggle.xml",
+        "source": "/Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/cec32cd82a8a766b147872418afb7fcd/material-1.0.0/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/Users/SherlockOhm/Downloads/Gozione/test_app/build/barcode_scan/intermediates/res/merged/release/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/06d29cf1c4a0ed70f972b88543abcd6c/appcompat-1.0.2/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/SherlockOhm/Downloads/Gozione/test_app/build/barcode_scan/intermediates/res/merged/release/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/06d29cf1c4a0ed70f972b88543abcd6c/appcompat-1.0.2/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/SherlockOhm/Downloads/Gozione/test_app/build/barcode_scan/intermediates/res/merged/release/color-v23/abc_tint_default.xml",
+        "source": "/Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/06d29cf1c4a0ed70f972b88543abcd6c/appcompat-1.0.2/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/SherlockOhm/Downloads/Gozione/test_app/build/barcode_scan/intermediates/res/merged/release/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/06d29cf1c4a0ed70f972b88543abcd6c/appcompat-1.0.2/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/SherlockOhm/Downloads/Gozione/test_app/build/barcode_scan/intermediates/res/merged/release/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/SherlockOhm/.gradle/caches/transforms-2/files-2.1/06d29cf1c4a0ed70f972b88543abcd6c/appcompat-1.0.2/res/color-v23/abc_tint_spinner.xml"
+    }
+]
